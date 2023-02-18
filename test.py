@@ -50,7 +50,7 @@ def test_model(TestLoader, criterion1, criterion2, criterion3):
         # model = initial_model                 # shallow copy
         learning_rate = 0.0001
         model = Parameter_transformNet()
-        model.load_state_dict(torch.load('../Loss10R1T_batch20_lr1e-3/CHECKPOINT_FILE_with_epoch_84')['model_state_dict'])  # GPU use
+        model.load_state_dict(torch.load('CHECKPOINT_FILE_with_epoch_84')['model_state_dict'])  # GPU use
         model = model.to(device)
         optimizer = optim.Adam(model.parameters(), lr=learning_rate)
         time1 = time.time()
