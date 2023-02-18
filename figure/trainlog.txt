@@ -1,4 +1,4 @@
-2022-03-02 01:27:16,100 - __main__ - INFO - Arguments are:
+2022-03-02 01:27:16,100 - __main__ - INFO - Arguments are: 
 2022-03-02 01:27:16,101 - __main__ - INFO - Namespace(RESUME=False, batch_size=20, dataset='mydataset', epochs=1000, lr=0.001, momentum=0.9, save_path='../Loss10R1T_batch20_lr1e-3', stepoch=0)
 2022-03-02 01:27:16,101 - __main__ - INFO - ------------------
 2022-03-02 01:27:16,180 - __main__ - INFO - Starting Training
