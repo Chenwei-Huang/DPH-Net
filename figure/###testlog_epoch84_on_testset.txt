@@ -1,6 +1,6 @@
 2022-05-25 13:37:21,443 - __main__ - INFO - Start Testing
 delpthlable_image_numbers:  1537
-source_image_numbers:  1537
+source_image_numbers:  1537 
 target_image_numbers:  1537
 src_crop_numbers:  1537
 tar_crop_numbers:  1537
