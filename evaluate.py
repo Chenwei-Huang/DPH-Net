@@ -119,15 +119,9 @@ def eval(inputs, delta_coord, out_r, out_t, depthmap, source, target, index):
 
 
 #####################Save addimage######################
-    if not os.path.isdir('result_epoch_84_addmse/addimage'):
-        os.mkdir('result_epoch_84_addmse/addimage')
-    cv2.imwrite("result_epoch_84_addmse/addimage/regis_"+str(index)+".jpg",tar_img//2+tar_img_t//2)
-
-    # ######################Save addimage######################
-    # if not os.path.isdir('result_epoch_84_addmse/addimage_without_onlineupdating'):
-    #     os.mkdir('result_epoch_84_addmse/addimage_without_onlineupdating')
-    # cv2.imwrite("result_epoch_84_addmse/addimage_without_onlineupdating/regis_" + str(index) + ".jpg", tar_img // 2 + tar_img_t // 2)
-
+    if not os.path.isdir('result/addimage'):
+        os.mkdir('result/addimage')
+    cv2.imwrite("result/addimage/regis_"+str(index)+".jpg",tar_img//2+tar_img_t//2)
 
     # s = tar_img_t.float().unsqueeze(0)
     # t = tar_img.float().unsqueeze(0)
